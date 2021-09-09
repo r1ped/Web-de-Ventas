@@ -19,13 +19,13 @@ const Login = () => {
 		    <input type="password" className="form-control negro text-white" id="password" required/>
 		  </div>
 		 
-		  <button type="submit" className="btn btn-primary">Submit</button>
+		  <button type="submit" className="btn btn-outline-primary fw-bold">Submit</button>
 		</form>
 		<div className="espacio text-center fw-bold">
 		<a 
 		className="text-white"
 		onClick={
-			() => historia.push(`/login`)
+			() => historia.push(`/dash/login`)
 		}>Login</a>
 		</div>
 		</center>

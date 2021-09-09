@@ -47,11 +47,11 @@ const App = () => {
 		           <Tos/>
 		         </Route>
 
-		         <Route path="/login" exact>
+		         <Route path="/dash/login" exact>
 		          <Login/>
 		         </Route>
 
-		         <Route path="/signup" exact>
+		         <Route path="/dash/signup" exact>
 		          <Signup/>
 		         </Route>
 		          <Redirect to="/" />

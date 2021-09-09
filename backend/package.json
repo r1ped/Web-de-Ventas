@@ -1,18 +1,40 @@
 {
-  "name": "backnd",
-  "version": "1.0.0",
-  "description": "none",
-  "main": "app.js",
-  "scripts": {
-    "test": "none"
-  },
-  "repository": {
-    "type": "git",
-    "url": "r1ped"
-  },
-  "keywords": [
-    "ventas"
-  ],
-  "author": "r1p3d",
-  "license": "ISC"
+	  "name": "nsweb",
+	  "version": "1.0.0",
+	  "description": "Nueva web de Nation",
+	  "main": "app.js",
+	  "type": "module",
+	  "scripts": {
+	  	  "test": "echo \"Error: no test specified\" && exit 1",
+	  	  "web": "node  --experimental-modules --es-module-specifier-resolution=node web.js --exec babel-node"
+	  },
+	  "repository": {
+	  	  "type": "git",
+	  	  "url": "git+https://github.com/r1ped/nsweb.git"
+	  },
+	  "author": "Ed",
+	  "license": "ISC",
+	  "bugs": {
+	  	  "url": "https://github.com/r1ped/nsweb/issues"
+	  },
+	  "homepage": "https://github.com/r1ped/nsweb#readme",
+	  "dependencies": {
+	  	  "@babel/plugin-transform-runtime": "^7.15.0",
+	  	  "connect-history-api-fallback": "^1.6.0",
+	  	  "cors": "^2.8.5",
+	  	  "dotenv": "^10.0.0",
+	  	  "express": "^4.17.1",
+	  	  "express-api-cache": "^1.0.4",
+	  	  "express-recaptcha": "^5.0.2",
+	  	  "isomorphic-fetch": "^3.0.0",
+	  	  "memory-cache": "^0.2.0",
+	  	  "mongoose": "^5.13.9",
+	  	  "morgan": "^1.10.0"
+	  },
+	  "devDependencies": {
+	  	  "@babel/cli": "^7.14.8",
+	  	  "@babel/core": "^7.15.0",
+	  	  "@babel/node": "^7.14.9",
+	  	  "@babel/preset-env": "^7.15.0"
+	  }
 }
